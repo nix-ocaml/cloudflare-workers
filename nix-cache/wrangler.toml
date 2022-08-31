@@ -1,0 +1,12 @@
+name = "anmonteiro"
+main = "./src/index.ts"
+compatibility_date = "2022-07-26"
+account_id = "7a53c28e9b7a91239f9ed42da04276bc"
+
+[vars]
+CACHE_CONTROL = "max-age=86400"
+
+[[r2_buckets]]
+binding = 'R2_BUCKET'
+bucket_name = 'overlays'
+preview_bucket_name = "overlays"
